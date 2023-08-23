@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+{% if page.class %}
+<div class="{{page.class}}">
+{% else %}
+<div class="mdl-grid">
+{% endif %}
+{{content }}
+</div>

@@ -1,0 +1,3 @@
+##################### EN PROCESO... ######################
+
+Se genera primero en web para que cree los html y luego en modo pdf. Luego para descragar los pdf's desde la web basta con poner el server en modo web.

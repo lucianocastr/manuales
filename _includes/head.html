@@ -1,0 +1,27 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<meta name="robots" content="noindex">
+
+  <title>{{ site.data[page.lang].manual.title }} - {{page.manual}} {{page.title}}</title>
+   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.data[page.lang].manual.description }}{% endif %}">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="{{"apple-touch-icon.png" | prepend: base }}">
+    <link rel="icon" type="image/png" href="{{"favicon-32x32.png" | prepend: base }}" sizes="32x32" />
+    <link rel="icon" type="image/png" href="{{"favicon-16x16.png" | prepend: base }}" sizes="16x16" />
+    {% if site.destination == "_systel" %}
+    <link rel="stylesheet" href="{{ "css/main.css" |  prepend: base }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <!--<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />-->
+  <link rel="stylesheet" href="https://storage.googleapis.com/code.getmdl.io/1.1.1/material.indigo-orange.min.css">
+    {% else %}
+    <link rel="stylesheet" href="{{ "css/main-pdf.css" |  prepend: base }}">
+    {% endif %}
+
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+</head>

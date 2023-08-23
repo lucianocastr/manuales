@@ -1,0 +1,137 @@
+- title: Inicio
+  icon: home
+  url: manuales/br/cuora-neo_LC/inicio/
+
+- title: Presentación
+  icon: event_note
+
+
+- title: Introducción
+  icon:
+  url: manuales/br/cuora-neo_LC/introduccion/
+
+- title: Descripción de partes
+  icon:
+  url: manuales/br/cuora-neo_LC/descripcion-de-partes/
+
+- title: Principales características
+  icon:
+  url: manuales/br/cuora-neo_LC/principales-caracteristicas/
+
+- title: Antes de empezar
+  icon: import_contacts
+
+
+- title: Desembalando su balanza
+  icon:
+  url: manuales/br/cuora-neo_LC/desembalando-su-balanza/
+
+- title: Precauciones
+  icon:
+  url: manuales/br/cuora-neo_LC/precauciones/
+
+- title: Baterías
+  icon:
+  url: manuales/br/cuora-neo_LC/baterias/
+
+- title: Cambio de papel
+  icon:
+  url: manuales/br/cuora-neo_LC/cambio-de-papel/
+
+- title: Conociendo su balanza
+  icon: face
+
+- title: Visores e indicadores
+  icon:
+  url: manuales/br/cuora-neo_LC/visores-e-indicadores-de-estado/
+
+- title: Ángulos de visión
+  icon:
+  url: manuales/br/cuora-neo_LC/angulos-de-vision/
+
+- title: Teclado y funciones
+  icon:
+  url: manuales/br/cuora-neo_LC/teclado-y-funciones/
+
+- title: Operación
+  icon: touch_app
+
+
+- title: Encender y apagar
+  icon:
+  url: manuales/br/cuora-neo_LC/encender-y-apagar/
+
+- title: Carga de la bandeja
+  icon:
+  url: manuales/br/cuora-neo_LC/carga-de-la-bandeja-receptora/
+
+- title: Función tara
+  icon:
+  url: manuales/br/cuora-neo_LC/funcion-tara/
+
+- title: Ajuste de cero
+  icon:
+  url: manuales/br/cuora-neo_LC/ajuste-de-cero/
+
+- title: Prueba de impresión
+  icon:
+  url: manuales/br/cuora-neo_LC/prueba-de-impresion/
+
+- title: Comprobantes
+  icon:
+  url: manuales/br/cuora-neo_LC/comprobantes/
+
+- title: Artículos
+  icon:
+  url: manuales/br/cuora-neo_LC/articulos/
+
+- title: Precios
+  icon:
+  url: manuales/br/cuora-neo_LC/precios/
+
+- title: Venta de artículos
+  icon:
+  url: manuales/br/cuora-neo_LC/venta-de-articulos/
+
+- title: Programación general
+  icon: keyboard
+
+- title: Acciones de uso frecuente
+  icon:
+  url: manuales/br/cuora-neo_LC/acciones-de-uso-frecuente/
+  
+- title: Acceso y navegación
+  icon:
+  url: manuales/br/cuora-neo_LC/acceso-y-navegacion/
+
+- title: Menú
+  icon:
+  url: manuales/br/cuora-neo_LC/menu/
+
+- title: Asistente de precios
+  icon:
+  url: manuales/br/cuora-neo_LC/asistente-para-modificacion-de-precios/
+
+- title: ABM's
+  icon:
+  url: manuales/br/cuora-neo_LC/altas-bajas-modificaciones/
+
+- title: Reportes
+  icon:
+  url: manuales/br/cuora-neo_LC/reportes/
+
+- title: Configuración
+  icon:
+  url: manuales/br/cuora-neo_LC/configuracion/
+
+- title: Solución de problemas
+  icon: warning
+  url: manuales/br/cuora-neo_LC/solucion-de-problemas/
+
+- title: Mantenimiento
+  icon: build
+  url: manuales/br/cuora-neo_LC/mantenimiento/
+
+- title: Garantía
+  icon: beenhere
+  url: manuales/br/cuora-neo_LC/garantia/

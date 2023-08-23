@@ -1,0 +1,32 @@
+title: Systel Manuals
+description: Systel product's documentation
+next: Next
+back: Back
+version: Version
+view: View
+download: Download
+languages:
+- Spanish
+- English
+- Portuguese
+items:
+- title: Cuora Neo
+  description: Balanza electrónica con impresor incorporado
+  url: manuales/en/cuora-neo/inicio/
+  pdf-url: manuales/en/cuora-neo/cuora-neo.pdf
+  name: cuora-neo
+- title: Cuora Max
+  description: Balanza electrónica con impresor incorporado
+  url: manuales/en/cuora-max/inicio/
+  pdf-url: manuales/en/cuora-max/cuora-max.pdf
+  name: cuora-max
+- title: Cuora 2
+  description: Balanza electrónica con impresor incorporado
+  url: manuales/en/cuora-2/inicio/
+  pdf-url: manuales/en/cuora-2/cuora-2.pdf
+  name: cuora-2
+- title: Cuora Flex
+  description: Balanza electrónica con impresor incorporado
+  url: manuales/en/cuora-flex/inicio/
+  pdf-url: manuales/en/cuora-flex/cuora-flex.pdf
+  name: cuora-flex

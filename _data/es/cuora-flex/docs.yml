@@ -1,0 +1,148 @@
+- title: Inicio
+  icon: home
+  url: manuales/es/cuora-flex/inicio/
+
+- title: Presentación
+  icon: event_note
+
+
+- title: Introducción
+  icon:
+  url: manuales/es/cuora-flex/introduccion/
+
+- title: Descripción de partes
+  icon:
+  url: manuales/es/cuora-flex/descripcion-de-partes/
+
+- title: Principales características
+  icon:
+  url: manuales/es/cuora-flex/principales-caracteristicas/
+
+- title: Antes de empezar
+  icon: import_contacts
+
+
+- title: Desembalando su balanza
+  icon:
+  url: manuales/es/cuora-flex/desembalando-su-balanza/
+
+- title: Precauciones
+  icon:
+  url: manuales/es/cuora-flex/precauciones/
+
+- title: Baterías
+  icon:
+  url: manuales/es/cuora-flex/baterias/
+
+- title: Cambio de papel
+  icon:
+  url: manuales/es/cuora-flex/cambio-de-papel/
+
+- title: Instalacion
+  icon: build
+
+- title: Soporte
+  icon:
+  url: manuales/es/cuora-flex/soporte/
+
+- title: Ergonometria
+  icon:
+  url: manuales/es/cuora-flex/ergonometria/
+
+- title: Angulos de vision
+  icon:
+  url: manuales/es/cuora-flex/angulos-de-vision/  
+
+- title: Conociendo su balanza
+  icon: face
+
+- title: Visores e indicadores
+  icon:
+  url: manuales/es/cuora-flex/visores-e-indicadores-de-estado/
+
+- title: Teclado y funciones
+  icon:
+  url: manuales/es/cuora-flex/teclado-y-funciones/
+
+- title: Operación
+  icon: touch_app
+
+
+- title: Encender y apagar
+  icon:
+  url: manuales/es/cuora-flex/encender-y-apagar/
+
+- title: Carga de la bandeja
+  icon:
+  url: manuales/es/cuora-flex/carga-de-la-bandeja-receptora/
+
+- title: Función tara
+  icon:
+  url: manuales/es/cuora-flex/funcion-tara/
+
+- title: Ajuste de cero
+  icon:
+  url: manuales/es/cuora-flex/ajuste-de-cero/
+
+- title: Prueba de impresión
+  icon:
+  url: manuales/es/cuora-flex/prueba-de-impresion/
+
+- title: Comprobantes
+  icon:
+  url: manuales/es/cuora-flex/comprobantes/
+
+- title: Artículos
+  icon:
+  url: manuales/es/cuora-flex/articulos/
+
+- title: Precios
+  icon:
+  url: manuales/es/cuora-flex/precios/
+
+- title: Venta de artículos
+  icon:
+  url: manuales/es/cuora-flex/venta-de-articulos/
+
+- title: Programación general
+  icon: keyboard
+
+- title: Acciones de uso frecuente
+  icon:
+  url: manuales/es/cuora-flex/acciones-de-uso-frecuente/
+  
+- title: Acceso y navegación
+  icon:
+  url: manuales/es/cuora-flex/acceso-y-navegacion/
+
+- title: Menú
+  icon:
+  url: manuales/es/cuora-flex/menu/
+
+- title: Asistente de precios
+  icon:
+  url: manuales/es/cuora-flex/asistente-para-modificacion-de-precios/
+
+- title: ABM's
+  icon:
+  url: manuales/es/cuora-flex/altas-bajas-modificaciones/
+
+- title: Reportes
+  icon:
+  url: manuales/es/cuora-flex/reportes/
+
+- title: Configuración
+  icon:
+  url: manuales/es/cuora-flex/configuracion/
+
+- title: Solución de problemas
+  icon: warning
+  url: manuales/es/cuora-flex/solucion-de-problemas/
+
+- title: Mantenimiento
+  icon: build
+  url: manuales/es/cuora-flex/mantenimiento/
+
+- title: Garantía
+  icon: beenhere
+  url: manuales/es/cuora-flex/garantia/

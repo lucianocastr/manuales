@@ -1,0 +1,19 @@
+  <div class="drawer mdl-layout__drawer">
+   <header class="drawer-header">
+          <a class="mdl-navigation__link" href="http://www.systel.com.ar"> <img src="{{"images/logo-systel.png" | prepend: base }}" class=""/></a>
+        </header> 
+   <nav class="mdl-navigation">
+    {% assign manuales = site.data[page.lang].manual.items %}
+       {% for manual in manuales %}
+        {% if site.compress_html.ignore.envs contains jekyll.environment %}
+          <a class="mdl-navigation__link {{selected}}" href="{{ manual.url | prepend: base }}index.html"><i class="material-icons" role="presentation">book</i>{{ manual.title | upcase }}</a>
+         {% else %}    
+        <a class="mdl-navigation__link {{selected}}" href="{{ manual.url | prepend: base }}"><i class="material-icons" role="presentation">book</i>{{ manual.title | upcase }}</a>
+         {% endif %}
+             {% endfor %}
+         <div class="mdl-layout-spacer"></div>
+        
+         
+        
+    </nav>
+  </div>

@@ -1,0 +1,27 @@
+# Site settings
+title: Manuales Systel
+description: Centro de documentación de productos de Systel
+
+baseurl: "" 
+url: "http://localhost:4000" # the base hostname & protocol for your site
+destination: _systel-pdf # _systel | _systel-pdf
+
+collections:
+  manuales:
+      output: true
+
+environment: local
+
+
+
+permalink: /:title/
+
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  profile: false
+  ignore:
+    envs: [local] #development|local
+
+markdown: kramdown

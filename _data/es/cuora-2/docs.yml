@@ -1,0 +1,137 @@
+- title: Inicio
+  icon: home
+  url: manuales/es/cuora-2/inicio/
+
+- title: Presentación
+  icon: event_note
+
+
+- title: Introducción
+  icon:
+  url: manuales/es/cuora-2/introduccion/
+
+- title: Descripción de partes
+  icon:
+  url: manuales/es/cuora-2/descripcion-de-partes/
+
+- title: Principales características
+  icon:
+  url: manuales/es/cuora-2/principales-caracteristicas/
+
+- title: Antes de empezar
+  icon: import_contacts
+
+
+- title: Desembalando su balanza
+  icon:
+  url: manuales/es/cuora-2/desembalando-su-balanza/
+
+- title: Precauciones
+  icon:
+  url: manuales/es/cuora-2/precauciones/
+
+- title: Baterías
+  icon:
+  url: manuales/es/cuora-2/baterias/
+
+- title: Cambio de papel
+  icon:
+  url: manuales/es/cuora-2/cambio-de-papel/
+
+- title: Conociendo su balanza
+  icon: face
+
+- title: Visores e indicadores
+  icon:
+  url: manuales/es/cuora-2/visores-e-indicadores-de-estado/
+
+- title: Ángulos de visión
+  icon:
+  url: manuales/es/cuora-2/angulos-de-vision/
+
+- title: Teclado y funciones
+  icon:
+  url: manuales/es/cuora-2/teclado-y-funciones/
+
+- title: Operación
+  icon: touch_app
+
+
+- title: Encender y apagar
+  icon:
+  url: manuales/es/cuora-2/encender-y-apagar/
+
+- title: Carga de la bandeja
+  icon:
+  url: manuales/es/cuora-2/carga-de-la-bandeja-receptora/
+
+- title: Función tara
+  icon:
+  url: manuales/es/cuora-2/funcion-tara/
+
+- title: Ajuste de cero
+  icon:
+  url: manuales/es/cuora-2/ajuste-de-cero/
+
+- title: Prueba de impresión
+  icon:
+  url: manuales/es/cuora-2/prueba-de-impresion/
+
+- title: Comprobantes
+  icon:
+  url: manuales/es/cuora-2/comprobantes/
+
+- title: Artículos
+  icon:
+  url: manuales/es/cuora-2/articulos/
+
+- title: Precios
+  icon:
+  url: manuales/es/cuora-2/precios/
+
+- title: Venta de artículos
+  icon:
+  url: manuales/es/cuora-2/venta-de-articulos/
+
+- title: Programación general
+  icon: keyboard
+
+- title: Acciones de uso frecuente
+  icon:
+  url: manuales/es/cuora-2/acciones-de-uso-frecuente/
+  
+- title: Acceso y navegación
+  icon:
+  url: manuales/es/cuora-2/acceso-y-navegacion/
+
+- title: Menú
+  icon:
+  url: manuales/es/cuora-2/menu/
+
+- title: Asistente de precios
+  icon:
+  url: manuales/es/cuora-2/asistente-para-modificacion-de-precios/
+
+- title: ABM's
+  icon:
+  url: manuales/es/cuora-2/altas-bajas-modificaciones/
+
+- title: Reportes
+  icon:
+  url: manuales/es/cuora-2/reportes/
+
+- title: Configuración
+  icon:
+  url: manuales/es/cuora-2/configuracion/
+
+- title: Solución de problemas
+  icon: warning
+  url: manuales/es/cuora-2/solucion-de-problemas/
+
+- title: Mantenimiento
+  icon: build
+  url: manuales/es/cuora-2/mantenimiento/
+
+- title: Garantía
+  icon: beenhere
+  url: manuales/es/cuora-2/garantia/

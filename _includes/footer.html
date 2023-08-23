@@ -1,0 +1,58 @@
+
+<footer class="mdl-mini-footer mdl-color--primary">
+{% assign docs = site.data[page.lang][page.dir].docs %}
+{% for document in docs %}
+{% if document.url == page.permalink  %}
+<div class="footer-grid ">
+    <div class="footer-L">&nbsp;</div>
+    {% if forloop.first %}
+      <span class="prev disabled"></span>
+    {% else %}
+    {% assign previous = forloop.index0 | minus: 1 %}
+    {% assign previous_page = docs[previous]  %}
+
+    {% if   previous_page.url %}
+    {% else %}
+      {% assign previous = forloop.index0 | minus: 2 %}
+      {% assign previous_page = docs[previous]  %}
+    {% endif %}
+    <div class="footer-grid-L">
+     {% if site.compress_html.ignore.envs contains jekyll.environment %}
+      <a href="{{base}}{{previous_page.url}}index.html" class="footer-text">
+     {% else %}
+      <a href="{{base}}{{previous_page.url}}" class="footer-text">
+       {% endif %}
+
+        <i class="material-icons arrow-L">arrow_back</i>
+        <span class="direction">{{site.data[page.lang].manual.back}}</span>
+        <div>{{previous_page.title}}</div>
+      </a>
+    </div>
+    {% endif %}
+    <div class="footer-R">&nbsp;</div>
+    {% if forloop.last %}
+      <span class="next disabled"></span>
+    {% else %}
+    {% assign next = forloop.index0 | plus: 1 %}
+    {% assign next_page = docs[next]  %}
+    {% if next_page.url %}
+    {% else %}
+      {% assign next = forloop.index0 | plus: 2 %}
+      {% assign next_page = docs[next]  %}
+    {% endif %}
+    <div class="footer-grid-R">
+    {% if site.compress_html.ignore.envs contains jekyll.environment %}
+    <a href="{{base}}{{next_page.url}}index.html" class="footer-text">
+    {% else %}
+        <a href="{{base}}{{next_page.url}}" class="footer-text">
+         {% endif %}
+          <i class="material-icons arrow-R">arrow_forward</i>
+          <span class="direction">{{site.data[page.lang].manual.next}}</span>
+          <div>{{next_page.title}}</div>
+        </a>
+    </div>
+    {% endif %}
+</div>
+{% break %}
+{% endif %}
+{% endfor %}

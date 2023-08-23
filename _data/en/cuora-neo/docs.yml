@@ -1,0 +1,136 @@
+- title: Home
+  icon: home
+  url: manuales/en/cuora-neo/inicio/
+
+- title: Presentation
+  icon: event_note
+
+
+- title: Introduction
+  url: manuales/en/cuora-neo/introduccion/
+
+- title: Description of parts
+  icon:
+  url: manuales/en/cuora-neo/descripcion-de-partes/
+
+- title: Main features
+  icon:
+  url: manuales/en/cuora-neo/principales-caracteristicas/
+
+- title: Before starting
+  icon: import_contacts
+
+
+- title: Unpacking your scale
+  icon:
+  url: manuales/en/cuora-neo/desembalando-su-balanza/
+
+- title: Precautions
+  icon:
+  url: manuales/en/cuora-neo/precauciones/
+
+- title: Batteries
+  icon:
+  url: manuales/en/cuora-neo/baterias/
+
+- title: Paper change
+  icon:
+  url: manuales/en/cuora-neo/cambio-de-papel/
+
+- title: Knowing your scale
+  icon: face
+
+- title: Visors and indicators
+  icon:
+  url: manuales/en/cuora-neo/visores-e-indicadores-de-estado/
+
+- title: Viewing angles
+  icon:
+  url: manuales/en/cuora-neo/angulos-de-vision/
+
+- title: Keyboard and functions
+  icon:
+  url: manuales/en/cuora-neo/teclado-y-funciones/
+
+- title: Operation
+  icon: touch_app
+
+
+- title: Turn on and turn off
+  icon:
+  url: manuales/en/cuora-neo/encender-y-apagar/
+
+- title: Tray loading
+  icon:
+  url: manuales/en/cuora-neo/carga-de-la-bandeja-receptora/
+
+- title: Tare function
+  icon:
+  url: manuales/en/cuora-neo/funcion-tara/
+
+- title: Zero setting
+  icon:
+  url: manuales/en/cuora-neo/ajuste-de-cero/
+
+- title: Test print
+  icon:
+  url: manuales/en/cuora-neo/prueba-de-impresion/
+
+- title: Vouchers
+  icon:
+  url: manuales/en/cuora-neo/comprobantes/
+
+- title: Articles
+  icon:
+  url: manuales/en/cuora-neo/articulos/
+
+- title: Prices
+  icon:
+  url: manuales/en/cuora-neo/precios/
+
+- title: Sell of articles
+  icon:
+  url: manuales/en/cuora-neo/venta-de-articulos/
+
+- title: General programming
+  icon: keyboard
+
+- title: Frequently used actions
+  icon:
+  url: manuales/en/cuora-neo/acciones-de-uso-frecuente/
+  
+- title: Access and navigation
+  icon:
+  url: manuales/en/cuora-neo/acceso-y-navegacion/
+
+- title: Menu
+  icon:
+  url: manuales/en/cuora-neo/menu/
+
+- title: Price wizard
+  icon:
+  url: manuales/en/cuora-neo/asistente-para-modificacion-de-precios/
+
+- title: ABM's
+  icon:
+  url: manuales/en/cuora-neo/altas-bajas-modificaciones/
+
+- title: Reports
+  icon:
+  url: manuales/en/cuora-neo/reportes/
+
+- title: Setting
+  icon:
+  url: manuales/en/cuora-neo/configuracion/
+
+- title: Problem solving
+  icon: warning
+  url: manuales/en/cuora-neo/solucion-de-problemas/
+
+- title: Maintenance
+  icon: build
+  url: manuales/en/cuora-neo/mantenimiento/
+
+- title: Warranty
+  icon: beenhere
+  url: manuales/en/cuora-neo/garantia/

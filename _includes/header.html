@@ -1,0 +1,42 @@
+  {% if site.destination == "_systel" %}
+<header class="mdl-layout__header mdl-layout__header--waterfall">
+    <div class="mdl-layout__header-row  mdl-color--primary">
+        <div class="header-title"><span class="section-title">{{page.manual}}</span>
+         {% if page.title %}
+       <span class="chapter-title"><span class="material-icons title-separator">chevron_right</span> {{ page.title }}</span>
+       {% endif %}
+        </div>
+        <div class="mdl-layout-spacer"></div>
+        {% assign docs=site.manuales | where:"name", page.name | where:"dir", page.dir | sort: 'path'  %}
+        {% for d in docs  %}
+        {% assign selected = 'current mdl-color-text--orange' %}
+          {% if d.lang != page.lang  %}
+            {% assign selected = 'mdl-color-text--white' %}
+           {% endif %}
+             {% if docs.size > 1%}
+            {% if site.compress_html.ignore.envs contains jekyll.environment %}
+            <a class="mdl-button mdl-js-button {{selected}}" href="{{d.url | prepend:base}}index.html">{{d.lang}}</a>
+             {% else %}
+           <a class="mdl-button mdl-js-button {{selected}}" href="{{d.url | prepend: base}}">{{d.lang}}</a>
+          {% endif %}
+            {% endif %}
+      {% endfor %}
+        </div>
+      <div class="mdl-layout__header-row">
+        <div class="mdl-layout-spacer"></div>
+       <div class="mdl-layout-spacer"></div>
+        {% if site.compress_html.ignore.envs contains jekyll.environment %}
+         <a class="mdl-button mdl-js-button mdl-color-text--white" href="{{base}}manuales/{{page.lang}}/index.html">{{site.data[page.lang].manual.title}}</a>
+         {% else %}
+       <a class="mdl-button mdl-js-button mdl-color-text--white" href="{{base}}manuales/{{page.lang}}/">{{site.data[page.lang].manual.title}}</a>
+       {% endif %}
+       
+      </div>
+  </header>
+ {% else %}
+  <header class="mdl-layout__header mdl-layout__header ">
+      <div class="mdl-layout--large-screen-only mdl-layout__header-row ">
+          <h3>{{page.manual}}</h3>
+      </div>
+  </header>
+ {% endif %}
